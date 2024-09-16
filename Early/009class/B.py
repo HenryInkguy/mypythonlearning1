@@ -11,3 +11,5 @@ print(tempting.lower().find('when'))
 tempsplit = tempting.split()
 print(tempsplit)
 print(tempsplit [0])
+
+# Remember to use the .function a lot after strings instead of creating variables.

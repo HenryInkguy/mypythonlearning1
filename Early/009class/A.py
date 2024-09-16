@@ -24,8 +24,8 @@ boring = love.lower() # All words lower cased.
 
 print(scream,"and",boring) 
 
-cap = d4c.capitalize() # Upper case every first letter in every single word.
-title = d4c.title() # Upper case in the first letter.
+cap = d4c.capitalize() # Upper case in the first letter.
+title = d4c.title() # Upper case in the first letter of every single word.
 print(cap)
 print(title)
 
