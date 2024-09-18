@@ -1,0 +1,1 @@
+"""Get all the challenges you've made so far (35) and give them all colors and decoration, get you code cleaner and the result prettier."""
