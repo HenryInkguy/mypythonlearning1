@@ -18,7 +18,7 @@ def BMIdef ():
 
         elif yesno == 'no':
             print("Terminating...")
-            quit()
+            exit()
     
     else:
 
@@ -47,6 +47,6 @@ def BMIdef ():
     
         else:
             print("Terminating...")
-            quit()
+            exit()
 
 BMIdef()
