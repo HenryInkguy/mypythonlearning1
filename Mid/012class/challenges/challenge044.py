@@ -10,7 +10,7 @@ def finalvalue():
     price = float(input(f"{c.text['itallic']}Type the value of the product you are going to buy: {c.text['clear']}"))
     paymeth = str(input(f"{c.text['itallic']}Choose what payment method you are going to use (Card or Cash): {c.text['clear']}")).strip().lower()
 
-    yesno1 = str(input(f"{c.text['itallic']}So your payment method is {paymeth} and the value of the product you wants to buy is U${price:.2f}, right? (Yes) or (No){c.text['clear']}\n")).strip().lower()
+    yesno1 = str(input(f"{c.text['itallic']}So your payment method is {paymeth} and the value of the product you want to buy is U${price:.2f}, right? (Yes) or (No){c.text['clear']}\n")).strip().lower()
     
     if yesno1 == "yes":
         def method():
@@ -19,7 +19,7 @@ def finalvalue():
                 (1)Paying in full you have 5% Discount.
                 (2)Paying up to 2x you have the normal price.
                 (3)Paying in 3x or more you have 20% of interest per installment.""")
-                methodd = int(input(f"{c.text['bold']}What will be your method? (1) (2) (3){c.text['clear']}"))
+                methodd = int(input(f"{c.text['bold']}What will be your method? (1) (2) (3)\n{c.text['clear']}"))
                 if methodd == 1:
                     fullcard = price * 95 / 100
                     print(f"{c.text['bold']}Paying in full with card, you'll need to pay: U${fullcard:.2f}.{c.text['clear']}")
@@ -44,12 +44,12 @@ def finalvalue():
                     print(f"{c.text['itallic']}Do you want to try again with other method or values? (Type anything to exit.)")
                     methval = str(input("(Method) or (Value)\n")).strip().lower()
                     if methval == "value":
-                        print(f"Good, starting over after 5 seconds...")
+                        print(f"{c.text['bold']}Good, starting over after 5 seconds...{c.text['clear']}")
                         t(5)
                         finalvalue()
 
                     elif methval == "method":
-                        print(f"Good, starting over after 5 seconds...")
+                        print(f"{c.text['bold']}Good, starting over after 5 seconds...{c.text['clear']}")
                         t(5)
                         method()
 
@@ -100,7 +100,7 @@ def finalvalue():
                 print(f"{c.text['itallic']}Do you want to check it with other product?")
                 methval = str(input("(Yes) or (No)\n")).strip().lower()
                 if methval == "yes":
-                    print(f"Good, starting over after 5 seconds...")
+                    print(f"{c.text['bold']}Good, starting over after 5 seconds...{c.text['clear']}")
                     t(5)
                     finalvalue()
 
@@ -111,7 +111,7 @@ def finalvalue():
         
             else:
                 print(f"Invalid Payment Method.")
-                yesno2 = str(input(f"Do you want to try again? (Yes or No)")).strip().lower()
+                yesno2 = str(input(f"{c.text['itallic']}Do you want to try again? (Yes or No){c.text['clear']}")).strip().lower()
                 if yesno2 == "yes":
                     finalvalue()
 
@@ -127,7 +127,7 @@ def finalvalue():
         method()
 
     elif yesno1 == "no":
-        yesno2 = str(input(f"Do you want to try again? (Yes or No)")).strip().lower()
+        yesno2 = str(input(f"{c.text['itallic']}Do you want to try again? (Yes or No){c.text['clear']}")).strip().lower()
         if yesno2 == "yes":
             finalvalue()
 
