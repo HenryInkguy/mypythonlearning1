@@ -30,15 +30,15 @@ def rps():
         
     def rock():
         if ropasc == (1):
-            print(f"its a draw.{c.text['clear']}")
+            print(f"Draw!{c.text['clear']}")
             agg()
 
         elif ropasc == (2):
-            print(f"I lost... good game.{c.text['clear']}")
+            print(f"You have won!{c.text['clear']}")
             agg()
 
         elif ropasc == (3):
-            print(f"I won! Yes!{c.text['clear']}")
+            print(f"Bot has won! Yes!{c.text['clear']}")
             agg()
 
         else:
@@ -48,15 +48,15 @@ def rps():
 
     def paper():
         if ropasc == (1):
-            print(f"I won! Yes!{c.text['clear']}")
+            print(f"Bot has won! Yes!{c.text['clear']}")
             agg()
 
         elif ropasc == (2):
-            print(f"its a draw.{c.text['clear']}")
+            print(f"Draw!{c.text['clear']}")
             agg()
 
         elif ropasc == (3):
-            print(f"I lost... good game.{c.text['clear']}")
+            print(f"You have won!{c.text['clear']}")
             agg()
 
         else:
@@ -82,18 +82,22 @@ def rps():
             t(5)
             rps()
 
-    if 3 < ropasc < 1:
+    if ropasc > 3 or ropasc < 1:
         print(f"Invalid input, starting over in 5 seconds...{c.text['clear']}")
         t(5)
         rps()
 
     else:
-        print(f"{c.text['itallic']}Rock...\n{t(1)}Paper...\n{t(1)}Scissors!{c.text['clear']}")
-
-        print(f"""{c.text['bold']}{"=-="*10}
-Player chose {rpsbot[ropasc+1]}
-Bot chose {rpsbot[rpsint]}
-{"=-="*10}\n{c.text['clear']}""")
+        print(f"{c.text['itallic']}Rock...")
+        t(1)
+        print(f"Paper...")
+        t(1)
+        print(f"Scissors!{c.text['clear']}")
+        t(1)
+        print(f"""{c.text['bold']}{"=-"*10}
+Player chose {rpsbot[ropasc-1]}
+Bot chose {rpsbot[rpsint-1]}
+{"=-"*10}\n{c.text['clear']}""")
 
         if rpsint == 1:
             rock()
