@@ -22,3 +22,4 @@ if istriangle == True:
     
 else: 
     print("Not a triangle.")
+    

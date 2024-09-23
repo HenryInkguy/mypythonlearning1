@@ -14,3 +14,4 @@ elif average >= 5 and average < 7:
 
 elif average > 7:
     print(f"Oh good, you're totally approved, {average:.1f} of average grades is pretty neat. Good job.")
+    
