@@ -3,7 +3,8 @@
 
 import color_chart as c
 
-number = int(input(f"{c.color['cyan']}{c.text['itallic']}Input the number you want to see the multiplication table of: {c.text['bold']}{c.color['yellow']}"))
+number = int(input(f"\n{c.color['cyan']}{c.text['itallic']}Input the number you want to see the multiplication table of: {c.text['bold']}{c.color['yellow']}"))
+print(f"{c.text['clear']}")
 
 def multiplication_table():
     print("\n")

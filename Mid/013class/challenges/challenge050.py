@@ -20,7 +20,7 @@ def every():
             every()
         
         elif yesno == 2:
-            print(f"\n{c.color['lilac']}{c.text['itallic']}Have a nice one!")
+            print(f"\n{c.color['lilac']}{c.text['itallic']}Have a nice one!{c.text['clear']}")
             exit()
         
         else:
@@ -30,7 +30,7 @@ def every():
     entire_numbers()
 
     print("\n")
-    print(f"{c.color['red']}{c.text['bold']}Sum of all even numbers amongst those you typed: {c.color['lilac']}{total}")
+    print(f"{c.color['cyan']}{c.text['bold']}Sum of all even numbers amongst those you typed: {c.color['lilac']}{total}{c.text['clear']}")
     
     returnal()
     

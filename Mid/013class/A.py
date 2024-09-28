@@ -22,10 +22,10 @@ quant3 = 0
 
 for t2 in range(0, 10000, 8):
     if (teste % 8) == 0:
-        quant2 = quant2 + 1
+        quant2 += 1
     
     elif (teste % 8) != 0:
-        quant3 = quant3 + 1
+        quant3 += 1
 
 print(f"{'=-='*20}")
 print(f"Numbers divisible by 8 between 0 and 1000, every 8 numbers: {quant2}")
@@ -40,3 +40,4 @@ jump = int(input(f"Set every what number will it read the value between {init} a
 
 for t3 in range (init, end, jump):
     print(t3)
+    

@@ -40,7 +40,7 @@ def start_function():
                 
                 women_lower += 1
 
-            elif sex == "M":
+            elif sex == "M" and age > oldest:
                 if age > oldest:
                     global oldest_man
 
