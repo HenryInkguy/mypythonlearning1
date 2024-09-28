@@ -1,0 +1,2 @@
+# Challenge 056
+# Develop an application that reads, name, age and sex of 4 people, and in the end shows: Average Age of the group | The name of the oldest man. | How many women have less than 20 years.

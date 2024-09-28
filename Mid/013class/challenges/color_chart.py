@@ -13,9 +13,9 @@ background = {'red':'\033[41m',
               'blue':'\033[44m',
               'lilac':'\033[45m',
               'cyan':'\033[46m',
-              'clear':'\033[40m,'}
+              'clear':'\033[m,'}
 
-text = {'clear':'\033[0m',
+text = {'clear':'\033[m',
         'bold':'\033[1m',
         'itallic':'\033[3m',
         'underline':'\033[4m',}

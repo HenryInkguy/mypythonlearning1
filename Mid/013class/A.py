@@ -39,4 +39,4 @@ end = int(input(f"Set in what number will it end: "))
 jump = int(input(f"Set every what number will it read the value between {init} and {end}: "))
 
 for t3 in range (init, end, jump):
-    
+    print(t3)

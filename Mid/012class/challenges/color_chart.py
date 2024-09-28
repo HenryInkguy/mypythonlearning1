@@ -1,4 +1,4 @@
-colors = {'clear':'\033[m', 
+color = {'clear':'\033[m', 
          'blue':'\033[34m', 
          'yellow':'\033[33m', 
          'lilac':'\033[35m',
