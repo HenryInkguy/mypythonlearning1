@@ -1,2 +1,2 @@
 # Challenge 065
-# 
+# Make a script that reads several integer numbers and in the end shows the average between them all, and which was the biggest and lowest number. The script will ask to the user if he wants or not to continue typing.

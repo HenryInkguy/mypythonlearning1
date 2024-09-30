@@ -1,2 +1,2 @@
 # Challenge 058
-# 
+# Same as Challenge 028, but now, the application will "think" in a number between 0 and 10, and the player will try to guess it until they finally get it right, showing in the end how many guesses it took to win.

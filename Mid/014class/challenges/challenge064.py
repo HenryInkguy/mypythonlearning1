@@ -1,2 +1,2 @@
 # Challenge 064
-# 
+# Make a script that reads several integer numbers, the application will only stop when the user types the value "999", which is the stop condition. In the end, shows how many numbers were typed and their sum, disconsidering the SC (flag).

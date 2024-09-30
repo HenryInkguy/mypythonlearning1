@@ -1,2 +1,2 @@
 # Challenge 061
-# 
+# As challenge 051, you need to make a script that reads the first term and the common difference of an arithmetic progression, showing the first 10 terms, but this time using the while structure.
